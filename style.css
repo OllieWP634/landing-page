@@ -133,3 +133,14 @@ a {
     font-style: italic;
     color: #1F2937;
 }
+
+.signup {
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.signup-container {
+    background-color: #3882F6;
+}
