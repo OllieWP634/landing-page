@@ -9,7 +9,7 @@ a {
     color: white;
 }
 
-.header, .content1, .content2, .content3, .footer {
+.header, .content1, .content2, .content3, .signup, .footer {
     display: flex;
 }
 
@@ -116,4 +116,20 @@ a {
     border-radius: 10px;
     height: 100px;
     width: 100px;
+}
+
+.content3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    background-color: #E5E7EB;
+    height: 300px;
+}
+
+.content3-text {
+    width: 500px;
+    font-size: 25px;
+    font-style: italic;
+    color: #1F2937;
 }
