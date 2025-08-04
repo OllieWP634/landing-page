@@ -4,6 +4,11 @@ body {
     outline: 2px solid orange;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .header, .content1, .content2, .content3, .footer {
     display: flex;
 }
@@ -53,7 +58,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(163, 162, 162);
+    background-color: rgb(112, 111, 111);
     padding: 30px;
     height: 100px;
     width: 250px;
@@ -70,5 +75,18 @@ body {
 
 .content1-text p {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 13px;
+    font-size: 15px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.content1 button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px
 }
