@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .content1, .content2, .content3, .footer {
+    display: flex;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+}
+
+.header h1 {
+    margin-right: auto;
+}
