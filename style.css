@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    outline: 2px solid orange;
+    font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -16,6 +16,7 @@ a {
 .header {
     background-color: #1F2937;
     color: white;
+    height: 75px;
 }
 
 .header-menu {
@@ -143,4 +144,13 @@ a {
 
 .signup-container {
     background-color: #3882F6;
+}
+
+.footer {
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 10px;
 }
