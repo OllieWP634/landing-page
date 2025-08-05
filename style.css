@@ -142,13 +142,23 @@ a {
     text-align: justify;
     background-color: #E5E7EB;
     height: 450px;
+    border: 1px solid green;
 }
 
 .content3-text {
-    width: 500px;
-    font-size: 25px;
+    width: 800px;
+    font-size: 35px;
     font-style: italic;
     color: #1F2937;
+    border: 1px solid green;
+}
+
+.content3-author {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+    border: 1px solid green;
 }
 
 /* SIGN UP */
