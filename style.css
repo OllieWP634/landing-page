@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
+    margin: 0px;
 }
 
 a {
@@ -17,18 +18,19 @@ a {
     background-color: #1F2937;
     color: white;
     height: 75px;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
 }
 
 .header-menu {
     display: flex;
     gap: 20px;
     margin-right: 20px;
-    align-items: center;
     list-style: none;
 }
 
 .header h1 {
-    margin-right: auto;
     margin-left: 20px;
     flex-shrink: 0;
 }
@@ -39,20 +41,22 @@ a {
     flex-shrink: 0;
 }
 
+/* CONTENT 1 */
+
 .content1 {
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 250px;
     color: white;
     background-color: #1F2937;
     padding-bottom: 30px;
-    height: 300px;
+    height: 450px;
 }
 
 .content1-text {
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 380px;
     margin-left: 20px;
 }
 
@@ -64,7 +68,7 @@ a {
     padding: 30px;
     height: 100px;
     width: 250px;
-    font-size: 10px;
+    font-size: 15spx;
 }
 
 .content1-text h2 {
@@ -93,31 +97,43 @@ a {
     padding-right: 20px
 }
 
+/* CONTENT 2 */
+
 .content2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 450px;
     text-align: center;
+}
+
+.content2 h2 {
+    font-size: 35px;
 }
 
 .content2-boxes {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 100px;
+    width: 1000px;
 }
 
 .content2-box1 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
 }
 
 .box {
-    border: 3px solid #3882F6;
+    border: 5px #3882F6 solid;
     border-radius: 10px;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 }
+
+/* CONTENT 3 */
 
 .content3 {
     flex-direction: column;
@@ -125,7 +141,7 @@ a {
     align-items: center;
     text-align: justify;
     background-color: #E5E7EB;
-    height: 300px;
+    height: 450px;
 }
 
 .content3-text {
@@ -135,8 +151,10 @@ a {
     color: #1F2937;
 }
 
+/* SIGN UP */
+
 .signup {
-    height: 300px;
+    height: 450px;
     justify-content: center;
     align-items: center;
     color: white;
@@ -145,6 +163,8 @@ a {
 .signup-container {
     background-color: #3882F6;
 }
+
+/* FOOTER */
 
 .footer {
     height: 75px;
